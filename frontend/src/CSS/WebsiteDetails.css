@@ -1,0 +1,86 @@
+.vcontent {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px 20px;
+  background: #f0f4f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.vcontent h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.vcontent p {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.vcontent b {
+  color: #222;
+  font-weight: 600;
+}
+
+.error {
+  color: #d9534f;
+  font-weight: 600;
+  text-align: center;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-btn {
+  background-color: #28a745; /* green */
+}
+
+.update-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545; /* red */
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+.delete-btn:disabled {
+  background-color: #f5a5ab;
+  cursor: not-allowed;
+}
